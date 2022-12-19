@@ -1,10 +1,10 @@
 {
-    "name":"wa - bot",
+    "name":"wa--bot",
     "description":  "whatsapp bot for chrome",
     "version": "1.1",
     "manifest_version": 3,
     "background":{
-        "service_worker":"background.js"
+        "service_worker":"js/background.js"
     },
     "host_permissions": [
         "*://*.whatsapp.com/*"

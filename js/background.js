@@ -28,9 +28,7 @@ function click(){
     () => { console.log("complete");});
   
   });
-  
 }
-
 function sleep (seconds) {
   var start = new Date().getTime();
   while (new Date() < start + seconds*1000) {}
